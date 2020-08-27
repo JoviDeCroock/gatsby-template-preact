@@ -1,0 +1,58 @@
+{
+  "name": "gatsby-template-preact",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Jovi De Croock <jovi@preact.dev>",
+  "keywords": [
+    "gatsby",
+    "preact"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.24.50",
+    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-hooked-head": "^0.1.1",
+    "gatsby-plugin-manifest": "2.4.22",
+    "gatsby-plugin-offline": "3.2.24",
+    "gatsby-plugin-preact": "^4.0.9",
+    "gatsby-plugin-purgecss": "^5.0.0",
+    "gatsby-plugin-sharp": "^2.6.27",
+    "gatsby-plugin-styled-components": "3.3.10",
+    "gatsby-transformer-sharp": "^2.5.13",
+    "hooked-head": "^0.4.1",
+    "preact": "^10.4.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "4.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.14.2"
+  },
+  "eslintIgnore": [
+    "public",
+    "node_modules",
+    ".cache"
+  ],
+  "lint-staged": {
+    "**/*.{js,ts}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
