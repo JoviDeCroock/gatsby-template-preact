@@ -4183,7 +4183,7 @@ cors@^2.8.5:
     object-assign "^4"
     vary "^1"
 
-cosmiconfig@^5.0.0, cosmiconfig@^5.2.1:
+cosmiconfig@^5.0.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.2.1.tgz#040f726809c591e77a17c0a3626ca45b4f168b1a"
   integrity sha512-H65gsXo1SKjf8zmrJ67eJk8aIRKV5ff2D4uKZIBZShbhGSpEmsQOPW/SKMKYhSTrqR7ufy6RP69rPogdaPh/kA==
@@ -6410,7 +6410,7 @@ gatsby-cli@^2.12.89:
     yargs "^15.3.1"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.3.15, gatsby-core-utils@^1.3.17:
+gatsby-core-utils@^1.3.17:
   version "1.3.17"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.17.tgz#ec9f38866d30c489ae4a4ffa0fb6be7a549c2e54"
   integrity sha512-nRKsoR4Y0N/O8U9xSnSbNlEtny1LEPQDl3IKru7JKwCu82nTeC4L4HSZATqXeRzadMlqmpY8j8Z6wblTewjnjg==
@@ -6500,14 +6500,14 @@ gatsby-plugin-hooked-head@^0.1.1:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-hooked-head/-/gatsby-plugin-hooked-head-0.1.1.tgz#87233f9a9aafb842ebe89db3003f2eadce2779b8"
   integrity sha512-u/mqjnZeg14G/732I1GHvwQUd8f3GwpeMWb2LcJyhKue0JeLk4zvn/TIlrZ2pJ8zDxDFhCQrGu4mD/auofS60g==
 
-gatsby-plugin-manifest@2.4.22:
-  version "2.4.22"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.22.tgz#fb2f52e361f45d83df646b33f43a3640c8df4592"
-  integrity sha512-pdIcT3ei9RMDoUupmNvpEtg/2jCsuN1tT+6HeIv8WudMEXFWrbOuETD3mZL4D2u/NJ4D1/rXhHlzxMZkbu7CIQ==
+gatsby-plugin-manifest@2.4.25:
+  version "2.4.25"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.25.tgz#19efcdad340a0a4fbf4e5c75fca0628b1f4d7aac"
+  integrity sha512-zH9drEj5lalPVpV42RuNvAxjxhqG8vkWq8JC4DMC7wmUEdzuCXObmhXvnGBvxALztVYkzDneLlNPr/OgvMwIwA==
   dependencies:
     "@babel/runtime" "^7.10.3"
-    gatsby-core-utils "^1.3.15"
-    semver "^5.7.1"
+    gatsby-core-utils "^1.3.17"
+    semver "^7.3.2"
     sharp "^0.25.1"
 
 gatsby-plugin-offline@3.2.25:
@@ -12369,7 +12369,7 @@ semver-truncate@^1.1.2:
   dependencies:
     semver "^5.3.0"
 
-"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0, semver@^5.7.1:
+"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
