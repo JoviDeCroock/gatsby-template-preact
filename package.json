@@ -23,7 +23,7 @@
     "gatsby-plugin-offline": "3.2.33",
     "gatsby-plugin-preact": "^4.0.15",
     "gatsby-plugin-purgecss": "^5.0.0",
-    "gatsby-plugin-sharp": "^2.6.36",
+    "gatsby-plugin-sharp": "^2.6.42",
     "gatsby-plugin-styled-components": "3.3.14",
     "gatsby-transformer-sharp": "^2.5.15",
     "hooked-head": "^0.4.1",
