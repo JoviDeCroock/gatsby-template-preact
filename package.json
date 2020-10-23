@@ -19,7 +19,7 @@
     "gatsby": "^2.24.80",
     "gatsby-plugin-google-analytics": "^2.3.17",
     "gatsby-plugin-hooked-head": "^0.1.1",
-    "gatsby-plugin-manifest": "^2.4.31",
+    "gatsby-plugin-manifest": "^2.4.35",
     "gatsby-plugin-offline": "3.2.33",
     "gatsby-plugin-preact": "^4.0.15",
     "gatsby-plugin-purgecss": "^5.0.0",
