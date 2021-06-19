@@ -28,7 +28,7 @@
     "gatsby-transformer-sharp": "^2.5.15",
     "hooked-head": "^0.4.1",
     "preact": "^10.5.9",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-dom": "^16.13.1",
     "styled-components": "5.2.0"
   },
