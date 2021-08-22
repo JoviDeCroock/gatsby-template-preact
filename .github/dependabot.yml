@@ -1,0 +1,46 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: gatsby-plugin-manifest
+    versions:
+    - 2.11.0
+    - 2.12.0
+  - dependency-name: gatsby-plugin-sharp
+    versions:
+    - 2.13.1
+    - 2.13.4
+    - 2.14.1
+  - dependency-name: gatsby-transformer-sharp
+    versions:
+    - 2.11.0
+    - 2.12.0
+  - dependency-name: gatsby-plugin-google-analytics
+    versions:
+    - 2.10.0
+  - dependency-name: gatsby-plugin-styled-components
+    versions:
+    - 3.9.0
+  - dependency-name: styled-components
+    versions:
+    - 5.2.1
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
