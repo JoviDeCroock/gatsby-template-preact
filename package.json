@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "eslint": "^7.10.0",
-    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react": "^7.26.1",
     "husky": "^7.0.2",
     "lint-staged": "^11.2.3",
     "prettier": "^2.4.1"
