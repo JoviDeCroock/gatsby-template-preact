@@ -27,7 +27,7 @@
     "gatsby-plugin-styled-components": "3.10.0",
     "gatsby-transformer-sharp": "^2.5.15",
     "hooked-head": "^0.4.1",
-    "preact": "^10.7.1",
+    "preact": "^10.10.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "5.3.5"
