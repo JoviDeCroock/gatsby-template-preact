@@ -33,7 +33,7 @@
     "styled-components": "5.3.6"
   },
   "devDependencies": {
-    "eslint": "^8.27.0",
+    "eslint": "^8.29.0",
     "eslint-plugin-react": "^7.31.10",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
