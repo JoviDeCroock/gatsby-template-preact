@@ -30,7 +30,7 @@
     "preact": "^10.15.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-components": "5.3.6"
+    "styled-components": "5.3.11"
   },
   "devDependencies": {
     "eslint": "^8.41.0",
